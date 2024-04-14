@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2716px" height="7355px" viewBox="0 0 2716 7355" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <path d="M2330.5,604.5 L2330.5,7271.5" id="path-1"></path>
+        <filter x="-400.0%" y="-0.1%" width="900.0%" height="100.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="2716" height="7355"></rect>
+        <rect id="Rectangle" stroke="#437C90" stroke-width="5" x="-105.5" y="22.5" width="2447" height="7397" rx="60"></rect>
+        <g id="Line" stroke-linecap="round">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use stroke="#EF6F6C" stroke-width="5" xlink:href="#path-1"></use>
+        </g>
+        <line x1="2352.875" y1="439.876457" x2="2352.625" y2="7168.62549" id="Line" stroke="#A98743" stroke-width="5" stroke-linecap="round"></line>
+    </g>
+</svg>
