@@ -268,9 +268,10 @@
   margin: 0.8rem;
 }
 
-.projectCardRowMarkdown > p {
+.projectCardRowMarkdown p, .projectCardRowMarkdown li {
   font-size: 0.9rem;
 }
+
   
 .projectCardRowMarkdown > h1,
 .projectCardRowMarkdown > h2,

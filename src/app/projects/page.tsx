@@ -18,8 +18,12 @@ export default async function Projects() {
   // aws-console-hotkeys article
   const awsConsoleHotkeysMd = await fs.readFile(process.cwd() + '/src/app/markdown/aws-console-hotkeys/introduction.md', 'utf-8');
 
+  // wifi-thermometer article
+  const wifiThermometerMd = await fs.readFile(process.cwd() + '/src/app/markdown/wifi-thermometer/introduction.md', 'utf-8');
+
   return (
     <PageWithNavBar>
+      <ProjectCard path="/articles/wifi-thermometer" imageFilename="/wifi-thermometer/thermistor-thumbnail.png" imageHeight={180} imageWidth={300} markdownBody={wifiThermometerMd} />
       <ProjectCard path="/articles/aws-console-hotkeys" imageFilename="/aws-console-hotkeys/macropad-thumbnail-2.gif" imageHeight={160} imageWidth={240} markdownBody={awsConsoleHotkeysMd} />
       <ProjectCard path="/articles/inventory" imageFilename="https://i.postimg.cc/WbgbNwFN/inventory-thumbnail.png" imageHeight={180} imageWidth={180} markdownBody={inventoryIntroductionMd} />
       <ProjectCard path="/articles/git-merge-or-rebase" imageFilename="/bad-merge.gif" imageHeight={130} imageWidth={250} markdownBody={gitArticleStripped} />
