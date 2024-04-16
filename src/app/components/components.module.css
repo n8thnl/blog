@@ -368,7 +368,8 @@
 
 .sideNavBar {
   position: fixed;
-  left: 10rem;
+  /* left: 10rem; */
+  left: max(6rem, 8vw);
   top: 10rem;
   height: 100%;
   justify-content: center;
