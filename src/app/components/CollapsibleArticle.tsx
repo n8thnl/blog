@@ -2,6 +2,7 @@
 import { useState } from "react";
 import styles from "./components.module.css";
 import Markdown from 'react-markdown';
+import rehypeRaw from "rehype-raw";
 
 export default function MultiArticle(props: Readonly<{ markdownBody: string }>) {
 
@@ -29,7 +30,7 @@ export default function MultiArticle(props: Readonly<{ markdownBody: string }>) 
     <div className={itemClassName}>
       <div onClick={onArticleClick} className={verticalLineClassName}></div>
       <div className={articleClassName} onClick={() => {}}>
-        <Markdown className={styles.articleMarkdown}>
+        <Markdown className={styles.articleMarkdown} rehypePlugins={[rehypeRaw]}>
           {props.markdownBody}
         </Markdown>
       </div>
