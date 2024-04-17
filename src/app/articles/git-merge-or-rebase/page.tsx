@@ -8,7 +8,7 @@ export default async function GitMergeOrRebase() {
     <Article
       markdownBody={md}
       images={[
-        '/bad-merge-double-margin.gif'
+        '/git-merge-or-rebase/bad-merge-double-margin.gif'
       ]}
     />
   );

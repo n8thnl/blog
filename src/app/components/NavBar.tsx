@@ -7,8 +7,8 @@ export default function NavBar() {
     <nav className={styles.nav}>
       <Link href="/">
         <Image
-          src="/n8thnl-logo.svg"
-          alt="Next.js Logo"
+          src="/general/n8thnl-logo.svg"
+          alt="n8thnl logo"
           width={200}
           height={100}
           className={styles.logo}
@@ -40,6 +40,13 @@ export default function NavBar() {
         >
           Contact
         </Link>
+        <a
+          target='_blank'
+          href='https://github.com/n8thnl'
+          className={`${styles.navLink}`}
+        >
+          <Image src="/general/github-mark.svg" alt="GitHub logo" width={32} height={32} />
+        </a>
       </div>
     </nav>
   );

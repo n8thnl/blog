@@ -19,9 +19,30 @@ body {
   background-color: #f2f2f2;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+pre {
+  background-color: #fafafa;
+  border: 1px solid #999;
+  border-radius: 3px;
+  display: block;
+  width: 100%;
+  margin: 0 0 0 30px;
+  white-space: pre-wrap;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  /* background-color: #f9f9f9; */
+  /* border: 1px solid #ddd; */
+  /* border-radius: 4px; */
+  /* margin-left: 1rem; */
+  font-size: 90%;
+  color: #333;
 }
 
 body {

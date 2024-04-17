@@ -1,4 +1,4 @@
-![article-title-image](/whoami.gif)
+![article-title-image](/introduction/whoami.gif)
 
 ###### Jan 25, 2024
 

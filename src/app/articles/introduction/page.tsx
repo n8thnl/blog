@@ -8,7 +8,7 @@ export default async function Introduction() {
     <Article
       markdownBody={md}
       images={[
-        '/whoami.gif'
+        '/introduction/whoami.gif'
       ]}
     />
   );
