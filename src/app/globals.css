@@ -25,24 +25,34 @@ body {
 } */
 
 pre {
-  background-color: #fafafa;
+  background-color: #fafafa !important;
   border: 1px solid #999;
   border-radius: 3px;
   display: block;
-  width: 100%;
+  width: 95%;
   margin: 0 0 0 30px;
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 0.9rem !important;
+  line-height: 1.0 !important;
+  overflow-x: auto;
+}
+
+code span {
+  font-family: 'Courier New', Courier, monospace !important;
+  /* font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace; */
+  font-weight: 600;
+  color: #333;
+  /* line-height: 1.0 !important; */
 }
 
 code {
-  font-family: 'Courier New', Courier, monospace;
-  /* background-color: #f9f9f9; */
-  /* border: 1px solid #ddd; */
-  /* border-radius: 4px; */
-  /* margin-left: 1rem; */
-  font-size: 90%;
+  /* font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace; */
+  font-family: 'Courier New', Courier, monospace !important;
+  /* font-size: 90% !important; */
+  font-weight: 600;
   color: #333;
+  /* line-height: 1.0 !important; */
 }
 
 body {

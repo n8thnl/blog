@@ -35,7 +35,7 @@ export default async function MultiArticle(props: Readonly<{ folderPath: string,
         </ul>
       </div>
       <div className={styles.accordionContainer} >
-        { mdContent.map(content => <CollapsibleArticle markdownBody={content.md} key={content.filename} />)}
+        { mdContent.map(content => content.filename.includes('md') ? <CollapsibleArticle markdownBody={content.md} key={content.filename} /> : <CollapsibleArticle htmlBody={content.md} key={content.filename} />)}
       </div>
     </PageWithNavBar>
   );

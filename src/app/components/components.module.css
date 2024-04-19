@@ -180,6 +180,11 @@
   font-size: 0.9rem;
 }
 
+.articleMarkdown pre {
+  align-self: center;
+  width: 98%;
+}
+
 .articleMarkdown model-viewer {
   width: 100%;
   height: 20rem;
@@ -367,6 +372,10 @@
 .acContentCollapsed {
   overflow: hidden;
   -webkit-mask-image: linear-gradient(180deg, #000 40%, transparent);
+}
+
+.acContentCollapsed:hover {
+  cursor: pointer;
 }
 
 .acContentExpanded {
