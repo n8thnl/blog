@@ -10,8 +10,8 @@ export default function Home() {
       </div>
       <div className={styles.cardHolder}>
         <ArticleCard title="Introductions: Who Am I?" imageSrc="/introduction/whoami.gif" linkPath="/articles/introduction" />
-        <ArticleCard title="To Rebase or to Merge: A Git Story" imageSrc="/git-merge-or-rebase/bad-merge-double-margin.gif" linkPath="/articles/git-merge-or-rebase" />
-        <ArticleCard title="A FOSS AWS Console Macro Library" imageSrc="/aws-console-hotkeys/macropad-thumbnail-2.gif" linkPath="/articles/aws-console-hotkeys" />
+        <ArticleCard title="Wifi Thermometer" imageSrc="/wifi-thermometer/circuit-fritzing.png" linkPath="/articles/wifi-thermometer" />
+        <ArticleCard title="Smart Knob" imageSrc="/smart-knob/knob_5.jpg" linkPath="/articles/smart-knob" />
       </div>
     </PageWithNavBar>
   );
