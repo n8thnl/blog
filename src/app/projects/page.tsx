@@ -24,8 +24,12 @@ export default async function Projects() {
   // smart-knob article
   const smartKnobMd = await fs.readFile(process.cwd() + '/src/app/markdown/smart-knob/introduction.md', 'utf-8');
 
+  // automated-3d-printing-tuning article
+  const automated3dPrintingTuningMd = await fs.readFile(process.cwd() + '/src/app/markdown/automated-3d-printing-tuning/introduction.md', 'utf-8');
+
   return (
     <PageWithNavBar>
+      <ProjectCard path="/articles/automated-3d-printing-tuning" imageFilename="/automated-3d-printing-tuning/0.18-flat.jpeg" imageHeight={180} imageWidth={360} markdownBody={automated3dPrintingTuningMd} />
       <ProjectCard path="/articles/smart-knob" imageFilename="/smart-knob/knob_6.jpg" imageHeight={180} imageWidth={270} markdownBody={smartKnobMd} />
       <ProjectCard path="/articles/wifi-thermometer" imageFilename="/wifi-thermometer/thermistor-thumbnail.png" imageHeight={180} imageWidth={300} markdownBody={wifiThermometerMd} />
       <ProjectCard path="/articles/aws-console-hotkeys" imageFilename="/aws-console-hotkeys/macropad-thumbnail-2.gif" imageHeight={160} imageWidth={280} markdownBody={awsConsoleHotkeysMd} />

@@ -18,11 +18,11 @@
   </url>
   <url>
     <loc>https://www.blog.n8thnl.com/articles/wifi-thermometer</loc>
-    <lastmod>2024-05-16</lastmod>
+    <lastmod>2024-05-27</lastmod>
   </url>
   <url>
     <loc>https://www.blog.n8thnl.com/articles/aws-console-hotkeys</loc>
-    <lastmod>2024-04-17</lastmod>
+    <lastmod>2024-05-27</lastmod>
   </url>
   <url>
     <loc>https://www.blog.n8thnl.com/articles/inventory</loc>
@@ -39,5 +39,9 @@
   <url>
     <loc>https://www.blog.n8thnl.com/articles/smart-knob</loc>
     <lastmod>2024-05-15</lastmod>
+  </url>
+    <url>
+    <loc>https://www.blog.n8thnl.com/articles/automated-3d-printing-tuning</loc>
+    <lastmod>2024-05-26</lastmod>
   </url>
 </urlset>
